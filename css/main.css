@@ -10,6 +10,7 @@ a{
     text-decoration: none;
     color: #ffffff;
 }
+/*Navbar Section*/
 #navbar{
     color:#ffffff;
     display: flex;/*yanyana olur*/
@@ -32,3 +33,66 @@ a{
     background: #336ea2;
     border-radius: 4px;
 }
+/*Home Section*/
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:2rem;
+    border-bottom: 1px solid grey;
+}
+#home img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+#home .name h2{
+    margin-bottom: 0.75rem;
+}
+#home .name p{
+    opacity: 0.6;
+    font-style: italic;
+}
+/*Training*/
+#training{
+    color:#ffffff;
+    padding:1rem;
+}
+#training .items{
+    display: flex;
+    justify-content:space-between;    
+    align-items: center;
+}
+#training .items .item{
+
+    width:33%;
+    text-align: center;
+    padding:0.5rem;
+}
+#training .items .item:hover{
+    color:red;
+    opacity: 0.5;
+}
+/*Courses*/
+#courses{
+    color:#333;
+    padding:1rem;
+}
+#courses{
+    color:#333f;
+    padding:1rem;
+}
+.courses{
+    
+display: flex;
+flex-direction: column;
+padding:1rem;
+}
+.courses .course{
+    display: flex;
+    padding:0.5rem;
+    margin-bottom: 0.5rem;
+    
+}
+
